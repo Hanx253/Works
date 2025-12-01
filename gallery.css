@@ -1,0 +1,56 @@
+/* ====== Base ====== */
+body {
+    margin: 0;
+    background: #151515;
+    color: white;
+    font-family: 'SecondFont', sans-serif;
+}
+
+/* ====== Back Arrow ====== */
+.back-arrow {
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    font-size: 44px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.back-arrow:hover {
+    filter: drop-shadow(0 0 6px white);
+}
+
+/* ====== Page Layout ====== */
+.page {
+    width: 100%;
+    padding-top: 70px; /* just enough space for arrow */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* ====== Optional Title ====== */
+.gallery-title {
+    font-family: 'TitleFont';
+    font-size: 32px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+/* ====== Image Column ====== */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0; /* No spacing */
+    margin-bottom: 65pt;
+    margin-top: 10pt;
+}
+
+.gallery img {
+    width: 85%;   /* Adjust size here (80%–95%) */
+    height: auto;
+    margin-bottom: 0;
+    display: block;
+    transition: 0.3s;
+}
